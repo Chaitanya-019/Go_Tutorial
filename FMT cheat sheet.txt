@@ -1,0 +1,35 @@
+%v = value in default format
+%T = type
+%% = literal %
+
+Boolean:
+%t = true (or) false
+
+Integer:
+%b = base2
+%o = base8
+%d = base10
+%x = base16
+
+Floating Points
+%r = Scientific Notation
+%f / %F = decimal no exponent
+%g = for large exponent
+
+Strings:
+%s = default
+%q = double quoted string
+
+Width & Precision:
+%f = default Width, default Precision
+%9f = Width 9, default Precision = text moves 9 spaces right
+%.2f = default width, Precision 2 = the float value will be upto 2 decimal
+%9.2f = width 9, Precision 2 = text moves 9 spaces right and the float value will be upto 2 decimal
+%9.f = width 9, Precision 0 = text moves 9 spaces right and the float value is rounded to one Integer
+
+Padding:
+%09d = pads digit to length 9 with preceeding 0
+%-4d = pds with spaces(width 4, left justified)
+
+"\n" = new line
+"\t" = tab 

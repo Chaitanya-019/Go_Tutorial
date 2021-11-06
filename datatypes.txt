@@ -1,0 +1,29 @@
+	//unsigned intergers
+	var i1 uint8
+	var i1 uint16
+	var i1 uint32
+	var i1 uint64
+
+	// intergers
+	var i1 int8
+	var i1 int16
+	var i1 int32
+	var i1 int64
+
+	//machine dependent types
+	var i uint
+	var i int
+
+	//floats
+	var f float32
+	var f float64
+
+	//complex
+	 var c complex128
+	 var c complex64
+
+	//string
+	var s string
+
+	//bool
+	var b bool
